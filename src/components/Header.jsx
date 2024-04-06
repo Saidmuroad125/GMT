@@ -40,7 +40,7 @@ const Header = () => {
         <Search/>
       </div>
     
-      <small className="ml-[35px]">
+      <small className=" md:ml-[35px] sm:hidden">
         Пн-Пт с 09:00-19:00 <br />
         Сб-Вс - выходной
       </small>

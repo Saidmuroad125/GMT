@@ -8,7 +8,7 @@ const Imporr = () => {
   <div className="w-full md:w-[50%] mt-4 md:mt-[35px]">
     <h1 className="mb-4 text-2xl font-bold">Подпишитесь и будьте в курсе!</h1>
     <p>Акции, скидки, распродажи ждут!</p>
-    <div className="rounded-full bg-lime-300 w-full md:w-[540px] h-[45px] flex justify-between mt-4 md:mt-[45px]">
+    <div className="rounded-full bg-lime-300 w-full md:w-[540px] h-[45px] flex justify-between mt-4 md:mt-[45px] sm:w-[300px]">
       <input
         type="email"
         className="w-full md:w-[80%] px-3 rounded-s-full"

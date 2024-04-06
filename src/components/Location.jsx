@@ -39,13 +39,13 @@ function Location()  {
     }
   };
     return (
-        <div className="flex gap-2 mx-auto conatainer h-[612-x] my-20" >
-            <div className="w-[50%] container ml-[65px] mt">
+        <div className="md:flex sm:flex-row gap-2 mx-auto conatainer h-[612-x] my-20" >
+            <div className="w-[50%] container ml-[65px] ">
                 <div >
                     <iframe
                         className="container mx-auto rounded-2xl"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13577.337172381369!2d69.2049699412457!3d41.28337677537935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2s!4v1711913035465!5m2!1sru!2s"
-                        width={700}
+                        width={600}
                         height={612}
                         style={{ border: 1 }}
                         loading="lazy"

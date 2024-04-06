@@ -48,7 +48,7 @@ const litso = [
 
 const slides = litso.map((item, ) => {
   return (
-   <div className={`mt-10 border flex bg-[#E5E2EE] w-[220px] h-[304px] sm:w-full sm:h-auto ${item.buk}`} key={item.srcp}>
+   <div className={`mt-10 border md:flex bg-[#E5E2EE] w-[220px] h-[304px] sm:hidden  ${item.buk}`} key={item.srcp}>
   <div>
     <img className="w-full h-[220px] sm:h-auto" src={item.srcp} alt="ish kupayib ketyapti" />
     <h1 className="p-3 font-medium">{item.textvok}</h1>
