@@ -4,8 +4,8 @@ import viza from "../assets/viza.svg"
 
 const Footer = () => {
     return (
-        <footer className="w-full bg-[#088269] py-10 px-16">
-            <div className="flex flex-col justify-between mb-5 md:flex-row">
+        <footer className="w-full bg-[#088269] py-10 px-16 ">
+            <div className="container flex flex-col justify-between mx-auto mb-5 md:flex-row">
                 <div className="flex flex-col gap-5">
                     <h5 className="text-[14px] text-white border-b-2 border-white pb-4 hover:text-red-300">Покупателям</h5>
                     <div className="flex items-start justify-start gap-10">
@@ -79,7 +79,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-between border-t-2 border-white">
+            <div className="container flex justify-between mx-auto border-t-2 border-white">
                 <div className="flex flex-col items-start gap-3 px-2 py-3 justify-centr">
                     <img  src={logo} alt="footer-logo" />
                     <h5 className="text-[12px] text-white hover:text-red-400">OOO «ГЛОБАЛ МЕДИКАЛ ТРЕЙД»</h5>

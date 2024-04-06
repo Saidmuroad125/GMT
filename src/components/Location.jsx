@@ -1,5 +1,4 @@
 import  { useState } from 'react';
-import SearchComponent from '../komponettt/Search';
 function Location()  {
      const [name, setName] = useState(localStorage.getItem('name') || '');
   const [phone, setPhone] = useState(localStorage.getItem('phone') || '');
@@ -41,7 +40,6 @@ function Location()  {
   };
     return (
         <div className="flex gap-2 mx-auto conatainer h-[612-x] my-20" >
-          <SearchComponent/>
             <div className="w-[50%] container ml-[65px] mt">
                 <div >
                     <iframe
